@@ -27,7 +27,7 @@ public class LupaSteps {
 	}
 	@End("o botão pesquisar")
 	public void oBotãoesquisar() {
-		page.setCliqueBotaoPesquisar();	
+		Assert.assertTrue(driver.findElement(By.className("search-submit")).isSelected());	
 
 	}
 	
