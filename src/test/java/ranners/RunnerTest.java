@@ -1,9 +1,11 @@
 package ranners;
+
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import Page.CriarContaPage;
+import br.interviewzen.LupaPage;
+import br.interviewzen.LupaSteps;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
