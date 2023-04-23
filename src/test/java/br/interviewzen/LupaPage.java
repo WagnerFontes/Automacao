@@ -10,11 +10,10 @@ public class LupaPage extends LupaSteps {
 		this.driver = driver;
 		
 	}
-
 	public void setClicarLupa() {
 		driver.findElement(By.id("search-open")).click();
+		
 	}
-	
 	public void setCliqueBotaoPesquisar() {
 		driver.findElement(By.className("search-submit")).click();
 
